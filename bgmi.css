@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    min-height: 100%;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.bgmi-grid{
+    padding-block: 2rem;
+    width: min(95%,70rem);
+    margin-inline: auto;
+}
+.testi{
+    font-size: var(--fs-400);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    
+}
+.yawar{
+    background: purple;
+
+}
+.saqib{
+    background: rgb(147, 49, 49);
+}
+
+.wa{
+    font-size: 2rem;
+
+}
+.numan{
+    background: rgb(141, 141, 55);
+}
+.sk{
+    width: 50px;
+    clip-path: circle();
+}
+.bgmi-grid{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+max-width: 100%;
+
+
+justify-content: flex-end;
+align-items: center;}
+
+#was{
+    background: rgb(88, 88, 132);
+}
+img,
+picture{
+    max-width: 100%;
+    display: block;
+}
+.head{
+    background: rgb(82, 84, 79);
+    text-align: center;
+    text-shadow: 5px; 
+font-style: italic;
+margin: 2px;
+padding: 2px;
+}
+
+
+.fnt{
+    color: rgb(28, 196, 162);
+}
